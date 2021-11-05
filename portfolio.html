@@ -293,12 +293,12 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-container">
+        <!-- Address footer -->
         <div class="address-container">
           <!-- Logo -->
           <a class="footer-logo" href="./index.html" lang="en">
             <span class="accent">Web</span>Studio
           </a>
-
           <!-- Contacts footer -->
           <address>
             <p class="address-footer">г. Киев, пр-т Леси Украинки, 26</p>
@@ -314,6 +314,8 @@
             </ul>
           </address>
         </div>
+
+        <!-- Social footer -->
         <div class="social-container">
           <p class="title">присоединяйтесь</p>
           <ul class="footer-social-list">
@@ -347,6 +349,29 @@
             </li>
           </ul>
         </div>
+
+        <!-- Subscription form -->
+        <form class="subscription-form" autocomplete="off">
+          <div class="subscription-container">
+            <label for="subscription-email" class="subscription-lable">
+              Подпишитесь на рассылку
+            </label>
+            <input
+              class="subscription-email"
+              id="subscription-email"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </div>
+
+          <button class="subscription-btn" type="submit">
+            <span class="subscription-btn-text">Подписаться</span>
+            <svg class="subscription-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
